@@ -1,0 +1,154 @@
+.container {
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 80vw;
+    height: 60vh;
+    display: grid;
+    /*grid-template-columns: auto auto auto auto; */
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.num {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #006699;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.re {
+    padding: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border : 2px outset #020607;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#result {
+    font-size: 7rem;
+    font-weight: bold;
+    color: #020405;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    margin: 1%;
+    cursor: pointer;
+    display: inline;
+
+}
+
+.history {
+    margin-top: 2%;
+}
+
+h4 {
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+#calc {
+
+    color: #000000;
+    background-color: rgb(255, 196, 0);
+}
+
+#calc:hover {
+    background-color: rgb(60, 255, 0);
+
+}
+#clr{
+    background-color: rgb(255, 255, 255);
+    
+}
+#clr:hover{
+    background-color: rgb(248, 0, 0);
+    color: yellow;
+}
+.snum{
+    background-color: rgb(245, 246, 247);
+
+}
+.sop{
+    background-color: rgb(224, 235, 247);
+    font-size: 3rem;
+    
+}
+.snum:hover{
+    background-color: rgb(0, 208, 255);
+    
+}
+.sop:hover{
+    
+
+    color: black;
+
+}
+.sbck{
+    background-image: url("https://img.icons8.com/color/48/000000/circled-left-2--v1.png" );
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+
+}
+.sbck:hover{
+    background-image: url("https://img.icons8.com/ios-filled/50/000000/circled-left-2.png" );
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+
+}
+.sqrt{
+
+    background-image: url("https://img.icons8.com/offices/40/000000/square-root.png" );
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-color: rgb(224, 235, 247);
+
+}
+.sqrt:hover{
+
+
+    background-image: url("https://img.icons8.com/ios-filled/50/000000/square-root.png" );
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-left: 0%;
+        margin-top: 1%;
+        width: 90vw;
+        height: 60vh;
+        display: grid;
+        /*grid-template-columns: auto auto auto auto; */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+.num {
+    font-size: 3rem;
+    margin: 0px;
+
+}
+.re{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 90vw;
+    margin-bottom: 5%;
+}
+#result {
+    font-size: 4rem;
+ 
+
+}
+}
+    
